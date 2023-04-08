@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(44, 9, 44);
+}
+
+#principal{
+    color: rgb(63, 63, 63);
+}
+
+#imgNode{
+    margin-left: 10px;
+}
+
+#formulario-perguntas{
+    margin-top: 50px;
+}
+
+#copy{
+    color: white;
+    margin-top: 5vh; /*Porcentagem da tela*/
+    text-align: center;
+}

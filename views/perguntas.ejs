@@ -1,0 +1,32 @@
+<%- include('partils/header.ejs') %>
+<body>
+    <%- include('partils/navbar.ejs')%>
+    <div id="principal">
+        <div class="container">
+          <div class="card" id="formulario-perguntas">
+            <header>
+              <div class="card-header">
+                <h3>Style bootstrap - Perguntas</h3>
+              </div>
+            </header>
+            <section>
+              <div class="card-body">
+                <form method="post" action="/SaveQuestions"> <!-- Get os dados vão para URL e o POST direto para back-end (Mais seguro)-->
+                    <label>Título:</label>
+                    <input type="text" placeholder="Título" class="form-control" name="titulo">
+                    <br>
+                    <label>Descrição:</label>
+                    <textarea cols="100" rows="10" placeholder="Descreva sua pergunta aqui: " class="form-control" name="descricao"></textarea>
+                    <br>
+                    <button class="btn btn-success">Enviar</button> <!--btn btn-success bustrap-->
+                </form>
+              </div>
+            </section> 
+          </div>
+          <footer class="card-footer">
+            <p id="copy" id="copy">&copy; ChrigorGazal</p>
+          </footer>
+      </div>
+    </div>
+</body>
+<%- include('partils/footer.ejs') %>
