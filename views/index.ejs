@@ -2,12 +2,26 @@
 <body>
   <%- include('partils/navbar.ejs')%>
   <section>
-    <div id="principal">
-      <h1>Style bootstrap</h1>
-    </div>
+      <div class="container"> <!-- Class container do boostrap-->
+          <hr>
+          <h1>Perguntas</h1>
+          <a href="/perguntas" class="btn btn-primary">Perguntar</a>
+          <hr>
+          <%perguntas.forEach(perguntas =>{ %>
+              <div class="card">
+                  <div class="card-body">
+                      <h4><%= perguntas.titulo %></h3> <!--Variavel coloca simbolo de '='-->
+                  </div>
+                  <div class="footer">
+                      <button class="btn btn-success">Responder</button>
+                  </div>                
+              </div>
+              <br>
+          <% }) %>
+      </div>
   </section>
   <footer>
-    <p id="copy">&copy; ChrigorGazal</p>
+    <p id="copy"><a href="https://www.linkedin.com/in/chrigor-gazal-dias-alves-22884a208/"></a> &copy; ChrigorGazal</p>
   </footer>
 </body>
 <%- include('partils/footer.ejs')%>

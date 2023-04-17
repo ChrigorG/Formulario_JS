@@ -1,5 +1,14 @@
 body{
     background-color: rgb(44, 9, 44);
+    color: white;
+}
+
+.card{
+    color: rgb(63, 63, 63);
+}
+
+.wrapper{
+    display: grid;
 }
 
 #principal{

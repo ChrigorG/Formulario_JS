@@ -1,6 +1,6 @@
 //Model -> Representação de uma tabela
 const sequelize = require("sequelize");
-const connection = require("./database/database");
+const connection = require("./database");
 
 //Criando uma tabela e os fields com o sequelize
 const pergunta = connection.define("pergunta", {
@@ -17,3 +17,5 @@ const pergunta = connection.define("pergunta", {
 //Se no meu banco não existir uma tabela chamado pergunta, o sequelize vai criar sincronizando  
     // O force:false não vai forçar a criação da tabela
 pergunta.sync({force:false}).then(() =>{}); 
+
+module.exports = pergunta;
