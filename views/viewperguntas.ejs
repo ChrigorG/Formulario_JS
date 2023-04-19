@@ -1,8 +1,15 @@
 <%- include('partils/header.ejs')%>
 <body>
     <%- include('partils/navbar.ejs')%>
+    <br>
     <div class="container">
-        <h1>aa</h1>
+        <div class="card">
+            <div class="card-body">
+                <h1><%= perguntas.titulo %></h1>
+                <p><%= perguntas.descricao %></p>
+            </div>
+        </div>
     </div>
+    <%- include('partils/footer_descripton.ejs')%>
 </body>
 <%- include('partils/footer.ejs')%>
