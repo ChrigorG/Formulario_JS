@@ -3,16 +3,33 @@ body{
     color: white;
 }
 
+.resposta{
+    background-color: rgb(249, 249, 249);
+    color: rgb(100, 100, 100);
+    border-radius: 0.4em;
+    padding: 10px;
+    box-shadow: 3px 4px 7px #888888;;
+}
+
+
+#tituloPergunta{
+    color: #686868;
+}
+
+.title{
+    color: rgb(58, 58, 58);
+}
+
+.body{
+    color: rgb(121, 121, 121);
+}
+
 .card{
-    color: rgb(63, 63, 63);
+    color: rgb(100, 100, 100);
 }
 
 .wrapper{
     display: grid;
-}
-
-#principal{
-    color: rgb(63, 63, 63);
 }
 
 #imgNode{

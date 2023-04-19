@@ -1,9 +1,9 @@
-//Model -> Representação de uma tabela
+//Model -> Representação de uma tabela pergunta
 const sequelize = require("sequelize");
-const connection = require("./database");
+const conexao = require("./database");
 
 //Criando uma tabela e os fields com o sequelize
-const pergunta = connection.define("pergunta", {
+const pergunta = conexao.define("pergunta", {
     titulo:{
         type: sequelize.STRING,
         allowNull: false //Não deixa receber valores nulos

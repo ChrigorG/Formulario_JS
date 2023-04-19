@@ -4,16 +4,19 @@
   <section>
       <div class="container"> <!-- Class container do boostrap-->
           <hr>
-          <h1>Perguntas</h1>
+          <div class="title">
+                <h1>Seu portal de perguntas e respostas</h1>
+                <p>Fala Dev, faça sua pergunta:</p>
+          </div>
           <a href="/perguntas" class="btn btn-primary">Perguntar</a>
           <hr>
-          <%perguntas.forEach(perguntas =>{ %>
+          <% perguntas.forEach(perguntas =>{ %>
               <div class="card">
                   <div class="card-body">
                       <h4><%= perguntas.titulo %></h3> <!--Variavel coloca simbolo de '='-->
                   </div>
-                  <div class="footer">
-                      <button class="btn btn-success">Responder</button>
+                  <div class="card-footer">
+                      <a href="/viewperguntas/<%= perguntas.id %>"><button class="btn btn-success">Responder</button></a>
                   </div>                
               </div>
               <br>
