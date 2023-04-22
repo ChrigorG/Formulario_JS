@@ -41,7 +41,7 @@ body{
 }
 
 #copy{
-    color: white;
+    color: rgb(90, 90, 90);
     margin-top: 5vh; /*Porcentagem da tela*/
     text-align: center;
 }

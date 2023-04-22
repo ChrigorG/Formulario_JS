@@ -13,7 +13,7 @@ const resposta = require("./database/respostas");
 connection.authenticate().then(() =>{
     console.log('Conectado ao banco de dados');
 }).catch((msgErro) =>{
-    console.log(msgErro);
+   console.log(msgErro);
 });
 
 //Pega os dados do formulario e transforma em uma estrutura javascript
