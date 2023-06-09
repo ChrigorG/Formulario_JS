@@ -4,4 +4,3 @@ Para o desenvolvimento, usado o framework Express.JS que deriva Node.JS como bas
 Por continuidade, uso do banco relacional MySQL
 com integração da ORM Sequelize para criar as MODEL e fazer integração com o Banco de Dados.
 Além disto, usado a engine EJS junto com o JavaScript para renderizar as páginas HTML e, Front-End feito usado a estrutura do Bootstrap.
-E por fim, foi hospedado durante um alguns dias na VPS da DigitalOcean usando servidor Ubuntu 20.04 só por questão de conhecimento mesmo.
