@@ -1,7 +1,7 @@
 # Forum
 Projeto pessoal.
 
-Este é um projeto de perguntas e respostas entre a comunidade, similar ao Stack OverFlow.
+Este é um projeto de perguntas e respostas entre a comunidade, similar ao Stack OverFlow, ao qual possa interafir com outros usuarios, criando perguntas sobre um determinado assundo e outras pessoas, dando dicas ou respostas.
 
 #Desenvolvimento
 
