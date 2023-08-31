@@ -3,10 +3,13 @@ Projeto pessoal.
 
 Este é um projeto de perguntas e respostas entre a comunidade, similar ao Stack OverFlow, ao qual possa interagir com outros usuários, criando perguntas sobre um determinado assunto e outras pessoas, dando dicas ou respostas.
 
+![Pergunta e resposta](https://github.com/ChrigorG/Pergunta-e-Resposta/assets/99369312/1699827d-da2f-46f4-b86d-d6f3ac6589cb)
+
 #Desenvolvimento
 
 Como base para o projeto, foi se utilizado
   - Node.JS
+
 
 Para criar portas e rotas, usado o 
   - framework Express.JS
